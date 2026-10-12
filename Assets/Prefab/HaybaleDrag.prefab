@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3063322491855842351}
   - component: {fileID: 8063457420697759842}
   - component: {fileID: 7259985907889407828}
+  - component: {fileID: 2493853113004509341}
   m_Layer: 0
   m_Name: HaybaleDrag
   m_TagString: Drag
@@ -105,6 +106,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.46, y: 3.44, z: 6.06}
   m_Center: {x: 0, y: 0.3, z: 0}
+--- !u!114 &2493853113004509341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3133228361615047696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba4e10f13b79a143a3d2a90ab717776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::value
+  Value: 2
 --- !u!1 &5773518571700234365
 GameObject:
   m_ObjectHideFlags: 0

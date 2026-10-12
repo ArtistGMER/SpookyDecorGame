@@ -1,8 +1,10 @@
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class trash : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+   
+  
     void Start()
     {
         
@@ -10,11 +12,11 @@ public class trash : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        Destroy(gameObject);
+        Destroy(other.gameObject);
     }
-    // Update is called once per frame
     void Update()
     {
+
         
     }
 }

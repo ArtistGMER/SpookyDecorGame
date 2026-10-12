@@ -101,6 +101,7 @@ GameObject:
   - component: {fileID: 1461595161010456560}
   - component: {fileID: 1596595778393750442}
   - component: {fileID: 639787078685380904}
+  - component: {fileID: -6525949179643276564}
   m_Layer: 0
   m_Name: Haybale2Drag
   m_TagString: Drag
@@ -172,3 +173,16 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.69, y: 3.3, z: 6.11}
   m_Center: {x: -0.15, y: 1.85, z: 1.06}
+--- !u!114 &-6525949179643276564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6834811741785266448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba4e10f13b79a143a3d2a90ab717776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  Value: 2
