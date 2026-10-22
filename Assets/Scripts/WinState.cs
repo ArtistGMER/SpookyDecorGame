@@ -1,4 +1,4 @@
-using TMPro;
+  using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 public class WinState : MonoBehaviour
@@ -12,13 +12,15 @@ public class WinState : MonoBehaviour
             GameOverScreen.gameObject.SetActive(false);
         }
     }
-
+        
     public void OnTriggerEnter(Collider other)
     {
-        FurnatureTracker tracker = GetComponent<FurnatureTracker>();
-        if (tracker != null && FT.ItemTracker != null)
+        Debug.Log("A");
+        //FurnatureTracker tracker = GetComponent<FurnatureTracker>();
+        if (FT.ItemTracker != null)
         {
-            if (tracker.ItemTracker.Count == 1)
+            Debug.Log("B");
+            if (FT.ItemTracker.Count == 40)
             {
                 Debug.Log("WIN");
                 WinStateTrigger();
@@ -37,5 +39,6 @@ public class WinState : MonoBehaviour
     {
         GameOverScreen.SetUp(FT.score);
         GameOverScreen.gameObject.SetActive(true);
+
     }
 }
